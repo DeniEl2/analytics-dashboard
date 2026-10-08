@@ -105,12 +105,13 @@
     background-color: rgba(45, 51, 61, 1);
 }
 
-.card2 p{
+.card2 h1{
     height: 14px;
     font-weight: bold;
     font-size: 14px;
     line-height: 100%;
     color: rgba(148, 163, 184, 1);
+    margin-bottom: 20px;
 }
 
 .frame{
