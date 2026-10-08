@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.bd{
+    background-color: rgba(32, 36, 43, 1);
+}
+
+.conteiner{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.conteiner2{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 40px;
+
+}
+
+.top{
+    max-width: 847px;
+    width: 847px;
+    height: 150px;
+    max-height: 150px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    padding: 24px;
+    gap: 12px;
+    background-color: rgba(67, 56, 202, 1);
+}
+
+.top h1{
+    width: 799px;
+    height: 36px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 100%;
+    color: rgba(255, 255, 255, 1);
+}
+
+.top p{
+    width: 799px;
+    height: 19px;
+    font-size: 16px;
+    line-height: 120%;
+    color: rgba(255, 255, 255, 0.9);
+    margin-top: 10px;
+}
+
+.card{
+    max-width: 565px;
+    width: 565px;
+    height: 150px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    padding: 24px;
+    gap: 12px;
+    background-color: rgba(45, 51, 61, 1);
+    margin-left: 20px;
+}
+
+.card p{
+    width: 59px;
+    height: 14px;
+    font-size: 14px;
+    line-height: 100%;
+    color: rgba(148, 163, 184, 1);
+    margin-bottom: 10px;
+}
+
+.card h1{
+    height: 48px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 100%;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.card span{
+    width: 64px;
+    height: 16px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 100%;
+    color: rgba(34, 197, 94, 1);
+}
+
+
+.card2{
+    max-width: 413px;
+    width: 413px;
+    height: 308px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    padding: 24px;
+    gap: 20px;
+    background-color: rgba(45, 51, 61, 1);
+}
+
+.card2 p{
+    height: 14px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 100%;
+    color: rgba(148, 163, 184, 1);
+}
+
+.frame{
+    display: block;
+    width: 365px;
+    height: 226px;
+}
+
+.linner-card{
+    display: inline-flex;
+    width: 365px;
+    height: 76px;
+    border-bottom: 1px solid rgba(85, 85, 85, 1);
+    padding: 12px 0px;
+    gap: 12px;
+}
+
+.linner-card img{
+    width: 52px;
+    height: 52px;
+    border-radius: 12px;
+}
+
+.linner-card h1{
+    width: 100%;
+    height: 16px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 100%;
+    color: rgba(255, 255, 255, 1);
+}
+
+.linner-card p{
+    height: 12px;
+    font-size: 12px;
+    line-height: 100%;
+    color: rgba(148, 163, 184, 1);
+    margin-top: 30px;
+    width: 100%;
+}
+
+.card3{
+    width: 1000px;
+    height: 308px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    background-color: rgba(45, 51, 61, 1);
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.linner-card-right{
+    width: 187.75px;
+    height: 122px;
+    margin-top: 12px;
+    margin-left: 24px;
+    border-radius: 16px;
+    padding: 16px;
+    gap: 12px;
+    background-color: rgba(54, 61, 72, 1);
+}
+
+.linner-card-right p{
+    width: 100%;
+    height: 12px;
+    font-size: 12px;
+    line-height: 100%;
+    color: rgba(148, 163, 184, 1);
+    margin-bottom: 10px;
+}
+
+.linner-card-right span{
+    width: 52px;
+    height: 28px;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 100%;
+    color: rgba(255, 255, 255, 1);
+}
